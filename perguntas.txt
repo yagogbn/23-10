@@ -1,0 +1,5 @@
+1. Sobrescrita de Métodos (Overriding)
+A sobrescrita de métodos permite que subclasses (Carro e Bicicleta) redefinam um método herdado da superclasse (Veiculo) mantendo a mesma assinatura. Isso viabiliza o polimorfismo dinâmico (em tempo de execução): ao chamar mover(), o Java identifica qual é o objeto real e executa a resposta específica de cada um, permitindo comportamentos diferentes dentro de uma mesma hierarquia.   
+
+2. Sobrecarga de Métodos (Overloading) e suas Diferenças
+A sobrecarga de métodos ocorre quando uma mesma classe possui métodos com o mesmo nome, mas com parâmetros diferentes em quantidade ou tipo (ex.: somar(int, int), somar(int, int, int) e somar(double, double)).   Diferença no Polimorfismo:Sobrecarga: É um polimorfismo estático (resolvido na compilação) dentro da mesma classe.   Sobrescrita: É um polimorfismo dinâmico (resolvido na execução) entre classes com relação de herança.   
